@@ -1,88 +1,89 @@
 <!doctype html>
-<html ⚡ lang="es">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <title>RoyaleLeaks - Mazos Clash Royale 2025, Guías y Estrategias</title>
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="RoyaleLeaks: mazos top 2025, estrategias, guía para subir a ligas, counters y meta actualizado de Clash Royale.">
   <meta name="keywords" content="mazos clash royale 2025, royale leaks, mazos meta, clash royale mejores mazos, guías clash royale">
 
-  <style amp-boilerplate>body{visibility:hidden}</style>
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
-
-  <style amp-custom>
-
+  <style>
     /* ======= GENERAL ======= */
-    body{
-      font-family:'Segoe UI', Tahoma, sans-serif;
-      margin:0;
-      background:#e6e9f5;
-      color:#1d1d1d;
-      padding-bottom: 50px; /* Espacio para el footer */
+    html {
+      scroll-behavior: smooth; /* Desplazamiento suave al navegar */
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      background: #e6e9f5;
+      color: #1d1d1d;
+      padding-bottom: 50px;
     }
 
     /* ======= HEADER ESTILO CLASH ROYALE ======= */
-    header{
-      background: url(" babbe.avif ") center/cover no-repeat,
-                  linear-gradient(90deg,#1a3ca6,#0f2b7a);
-      padding:40px 20px;
-      color:#ffd700;
-      text-align:center;
-      text-shadow:0 2px 4px rgba(0,0,0,.4);
+    header {
+      /* Corregí los espacios en la URL de la imagen */
+      background: url("babbe.avif") center/cover no-repeat,
+                  linear-gradient(90deg, #1a3ca6, #0f2b7a);
+      padding: 40px 20px;
+      color: #ffd700;
+      text-align: center;
+      text-shadow: 0 2px 4px rgba(0,0,0,.4);
     }
 
-    .logo{
-      width:120px;
-      margin:auto;
+    .logo {
+      width: 120px;
+      height: auto;
+      margin: auto;
+      display: block;
     }
 
     /* ======= MENÚ ======= */
-    nav{
-      background:#0d1f63;
-      padding:12px;
-      text-align:center;
-      box-shadow:0 3px 6px rgba(0,0,0,.3);
+    nav {
+      background: #0d1f63;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,.3);
       position: sticky;
       top: 0;
       z-index: 100;
     }
 
-    nav a{
-      display:inline-block;
-      padding:10px 16px;
-      background:#1a3ca6;
-      color:#ffd700;
-      border-radius:10px;
-      margin:4px;
-      text-decoration:none;
-      font-weight:bold;
-      transition:.2s;
+    nav a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #1a3ca6;
+      color: #ffd700;
+      border-radius: 10px;
+      margin: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: .2s;
       font-size: 0.9em;
     }
 
-    nav a:hover{
-      background:#ffd700;
-      color:#0f2b7a;
-      transform:scale(1.05);
+    nav a:hover {
+      background: #ffd700;
+      color: #0f2b7a;
+      transform: scale(1.05);
     }
 
     /* ======= SECCIONES ======= */
-    section{
-      padding:20px;
-      max-width:1000px;
-      margin:auto;
-      background:#fff;
-      margin-bottom:20px;
-      border-radius:12px;
-      box-shadow:0 2px 5px rgba(0,0,0,.1);
-      overflow: hidden; /* Para bordes de imágenes */
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,.1);
+      overflow: hidden;
     }
 
-    h2{
-      color:#0f2b7a;
-      border-bottom:2px solid #ffd700;
-      padding-bottom:5px;
+    h2 {
+      color: #0f2b7a;
+      border-bottom: 2px solid #ffd700;
+      padding-bottom: 5px;
       margin-top: 0;
     }
     
@@ -90,20 +91,25 @@
         color: #1a3ca6;
     }
 
-    .post{
-      border-bottom:1px solid #ddd;
-      padding:20px 0;
+    .post {
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
     }
 
-    .post:last-child{
-      border-bottom:none;
+    .post:last-child {
+      border-bottom: none;
     }
     
     /* ESTILOS DE IMÁGENES DENTRO DE POSTS */
+    /* Esto reemplaza el layout="responsive" de AMP */
     .article-img {
         border-radius: 8px;
         margin-bottom: 15px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        width: 100%;       /* Ocupa el ancho del contenedor */
+        height: auto;      /* Mantiene la proporción */
+        max-width: 600px;  /* Límite máximo opcional */
+        display: block;    /* Evita espacios extra debajo */
     }
     
     /* ESTILO DE CONTACTO */
@@ -139,16 +145,22 @@
         font-weight: bold;
     }
 
-    /* ======= AVISO DE COOKIES AMP ======= */
-    amp-user-notification {
+    /* ======= AVISO DE COOKIES (ESTÁNDAR) ======= */
+    #cookie-notification {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
         padding: 15px;
         background: #1d1d1d;
         color: #fff;
-        display: flex;
+        display: flex; /* Se usa flexbox para centrar */
         justify-content: center;
         align-items: center;
         box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+        z-index: 9999;
     }
+    
     .cookie-content {
         display: flex;
         flex-wrap: wrap;
@@ -175,12 +187,12 @@
     }
 
     /* ======= FOOTER ======= */
-    footer{
-      background:#0d1f63;
-      color:#ffd700;
-      text-align:center;
-      padding:25px;
-      margin-top:20px;
+    footer {
+      background: #0d1f63;
+      color: #ffd700;
+      text-align: center;
+      padding: 25px;
+      margin-top: 20px;
     }
     footer a {
         color: #ffd700;
@@ -191,15 +203,15 @@
 </head>
 <body>
 
-<amp-user-notification layout="nodisplay" id="amp-user-notification1">
+<div id="cookie-notification">
   <div class="cookie-content">
     <p>Utilizamos cookies propias y de terceros para mejorar tu experiencia de navegación y ofrecerte contenido personalizado. Al continuar navegando, aceptas nuestra <a href="#legal" style="color:#ffd700;">Política de Cookies</a>.</p>
-    <button class="cookie-btn" on="tap:amp-user-notification1.dismiss">Aceptar y Cerrar</button>
+    <button id="accept-cookies-btn" class="cookie-btn">Aceptar y Cerrar</button>
   </div>
-</amp-user-notification>
+</div>
 
 <header>
-  <amp-img class="logo" src="icono.avif" width="120" height="120" layout="fixed"></amp-img>
+  <img class="logo" src="icono.avif" alt="Logo RoyaleLeaks">
   <h1>RoyaleLeaks</h1>
   <p>Mazos, guías y novedades de Clash Royale</p>
 </header>
@@ -223,14 +235,14 @@
 
   <div class="post">
     <h3>1. Mazo de Gigante Eléctrico + Fénix (Meta 2025)</h3>
-    <amp-img class="article-img" alt="mazo gigante electrico clash royale" src="mazogigante.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="mazo gigante electrico clash royale" src="mazogigante.jpg">
     <p>El mazo más dominante del 2025: control, presión constante y defensa sólida contra aéreo. Combinado con el Fénix y el Tornado, crea un push casi imparable.</p>
     <p style="text-align: right;"><a href="#gigante-electrico" style="color: #1a3ca6; font-weight: bold;">Leer Análisis Detallado ➡️</a></p>
   </div>
 
   <div class="post">
     <h3>2. Mazo de Minero Control 2.8</h3>
-    <amp-img class="article-img" alt="mazo minero control clash royale" src="minero2.8.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="mazo minero control clash royale" src="minero2.8.jpg">
     <p>Rápido, barato y perfecto para subir copas. La clave es ciclar el Minero constantemente mientras defiendes con Valkiria, Bombardero y Tronco.</p>
     <p style="text-align: right;"><a href="#minero-bait" style="color: #1a3ca6; font-weight: bold;">Ver Mazo Minero/Bait ➡️</a></p>
   </div>
@@ -238,9 +250,9 @@
 
 <section id="gigante-electrico">
   <h2>⚔️ Análisis Profundo: Gigante Eléctrico + Fénix</h2>
-  <amp-img class="article-img" alt="estrategia gigante electrico" src="egiant_strategy.jpg" width="600" height="350" layout="responsive"></amp-img>
+  <img class="article-img" alt="estrategia gigante electrico" src="egiant_strategy.jpg">
   <p>Este mazo de costo $3.8$ de Elixir ha dominado el meta de 2025 gracias a su capacidad de **controlar el carril** con el Tornado y defender unidades aéreas clave con el Fénix.</p>
-  
+   
   <h3>Cartas y Rol Principal</h3>
   <table class="card-table">
     <tr>
@@ -260,9 +272,9 @@
 
 <section id="montapuercos">
   <h2>🚀 Mazo Detallado: Montapuercos 2.6</h2>
-  <amp-img class="article-img" alt="mazo montapuercos 2.6" src="hog_2.6.jpg" width="600" height="350" layout="responsive"></amp-img>
+  <img class="article-img" alt="mazo montapuercos 2.6" src="hog_2.6.jpg">
   <p>El ciclo rápido por excelencia. Juega el Montapuercos hasta **tres veces** por cada jugada pesada del rival.</p>
-  
+   
   <table class="card-table">
     <tr><th>Carta</th><th>Función</th></tr>
     <tr><td>**Montapuercos**</td><td>Daño a Torre</td></tr>
@@ -274,48 +286,48 @@
 
 <section id="pekka">
   <h2>💥 Meta-Counter: P.E.K.K.A Control / Bridge Spam</h2>
-  <amp-img class="article-img" alt="mazo pekka bridge spam" src="pekka_bs.jpg" width="600" height="350" layout="responsive"></amp-img>
+  <img class="article-img" alt="mazo pekka bridge spam" src="pekka_bs.jpg">
   <p>El *counter* natural a los Tanques pesados. Defiende con P.E.K.K.A y contraataca rápido con Ariete y Bandida.</p>
   <p><strong>Clave:</strong> Nunca uses el P.E.K.K.A ofensivamente al inicio. Úsalo para matar al tanque rival y luego apóyalo en el contraataque.</p>
 </section>
 
 <section id="minero-bait">
     <h2>🃏 Mazo Detallado: Minero Barril de Duendes</h2>
-    <amp-img class="article-img" alt="mazo log bait" src="log_bait.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="mazo log bait" src="log_bait.jpg">
     <p>El mazo *Log Bait* ($3.3$ Elixir) fuerza al rival a gastar su Tronco para luego castigar con el Barril de Duendes.</p>
     <p><strong>Ataque por Fases:</strong> Inicia con Princesa en el puente. Si gastan Tronco, lanza el Barril a la torre.</p>
 </section>
 
 <section id="rg-walls">
     <h2>🔨 Mazo de Gigante Noble + Pescadora</h2>
-    <amp-img class="article-img" alt="royal giant deck" src="royal_giant.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="royal giant deck" src="royal_giant.jpg">
     <p>El **Gigante Noble** ataca desde lejos. Usa la **Pescadora** para atraer tanques rivales y activar tu torre del rey.</p>
     <p>Usa el **Rompemuros** por el otro carril cuando el rival gaste elixir defendiendo al Gigante Noble.</p>
 </section>
 
 <section id="cementerio">
     <h2>💎 Mazo de Cementerio + Veneno</h2>
-    <amp-img class="article-img" alt="graveyard poison deck" src="graveyard_poison.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="graveyard poison deck" src="graveyard_poison.jpg">
     <p>Arquetipo de **Control**. Defiende, sobrevive y lanza el Cementerio con un tanque (Caballero) cuando el rival tenga poco elixir.</p>
     <p>El **Veneno** es obligatorio para matar a los esqueletos o esbirros que intenten defender tu Cementerio.</p>
 </section>
 
 <section id="golem-noche">
     <h2>🦍 Mazo de Golem + Bruja Nocturna</h2>
-    <amp-img class="article-img" alt="golem beatdown deck" src="golem_beatdown.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="golem beatdown deck" src="golem_beatdown.jpg">
     <p>El arquetipo *Beatdown* definitivo. Ignora el daño pequeño y construye un ataque imparable en x2 de Elixir.</p>
     <p><strong>Estrategia:</strong> Juega Golem atrás del rey. Acumula Bruja Nocturna y Dragón detrás. Usa Rayo para eliminar la Torre Infernal.</p>
 </section>
 
 <section id="sparky-def">
     <h2>⚡ Mazo de Sparky + Montacarneros</h2>
-    <amp-img class="article-img" alt="sparky deck clash royale" src="sparky_goblin.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="sparky deck clash royale" src="sparky_goblin.jpg">
     <p>El mazo de daño masivo. Sparky elimina tanques terrestres de un disparo. Usa la Montacarneros para frenar globos o montapuercos.</p>
 </section>
 
 <section id="ballesta">
     <h2>🏹 Mazo de Ballesta 3.0 (Asedio)</h2>
-    <amp-img class="article-img" alt="xbow 3.0 deck" src="xbow_cycle.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="xbow 3.0 deck" src="xbow_cycle.jpg">
     <p>Controla el puente. Protege tu Ballesta con Caballero y Arqueras. Gana la partida defendiendo y lanzando Bolas de Fuego a la torre.</p>
 </section>
 
@@ -324,40 +336,40 @@
 
   <div class="post">
     <h3>Cómo ganar más partidas usando ciclos cortos</h3>
-    <amp-img class="article-img" alt="guia ciclo rapido" src="cycle_guide.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="guia ciclo rapido" src="cycle_guide.jpg">
     <p>Aprende a rotar tu win condition antes que el rival. Tu objetivo es lanzar tu Montapuercos cuando el rival aún no tiene su Cañón en mano.</p>
   </div>
 
   <div class="post">
     <h3>Consejos para subir a Liga 1</h3>
-    <amp-img class="article-img" alt="subir copas clash royale" src="ladder_guide.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="subir copas clash royale" src="ladder_guide.jpg">
     <p>No cambies de mazo constantemente. Domina uno solo. Aprende a contar el elixir del rival (si gasta 7 en P.E.K.K.A y tú defiendes con 3, tienes +4 de ventaja).</p>
   </div>
 </section>
 
 <section id="posicionamiento">
     <h2>📌 Guía Avanzada: Posicionamiento</h2>
-    <amp-img class="article-img" alt="posicionamiento defensa clash royale" src="placement_guide.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="posicionamiento defensa clash royale" src="placement_guide.jpg">
     <p><strong>El Atractor Central:</strong> Coloca estructuras 4 cuadros adelante del Rey y 3 al lado para máxima distracción.</p>
     <p><strong>Anti-Rayo:</strong> Nunca pongas tu Mosquetera o Mago pegado a la torre si el rival tiene Rayo.</p>
 </section>
 
 <section id="tanques">
     <h2>⚔️ Cómo Defender Tanques Pesados</h2>
-    <amp-img class="article-img" alt="defender golem pekka" src="tank_defense.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="defender golem pekka" src="tank_defense.jpg">
     <p>La clave es **separar el tanque del soporte**. Usa Valkiria para matar a la Bruja/Mago detrás del Golem, mientras tu Torre Infernal derrite al Golem.</p>
 </section>
 
 <section id="hechizos">
     <h2>✨ Dominio de Hechizos</h2>
-    <amp-img class="article-img" alt="uso de hechizos clash royale" src="spells_guide.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="uso de hechizos clash royale" src="spells_guide.jpg">
     <p><strong>Valor:</strong> No uses Bola de Fuego solo en una Princesa. Espera a que el rival ponga algo más cerca de ella.</p>
     <p><strong>Finisher:</strong> Memoriza el daño de tus hechizos a torre para saber cuándo puedes ganar la partida solo ciclando hechizos.</p>
 </section>
 
 <section id="matchups">
     <h2>🧠 Guía de Matchups</h2>
-    <amp-img class="article-img" alt="matchups guide" src="matchups.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="matchups guide" src="matchups.jpg">
     <table class="card-table">
       <tr><th>Rival</th><th>Estrategia</th></tr>
       <tr><td>**Golem**</td><td>Ataca el otro carril fuerte.</td></tr>
@@ -368,19 +380,19 @@
 
 <section id="defensas-baratas">
     <h2>🧱 Estructuras: Lápida y Jaula</h2>
-    <amp-img class="article-img" alt="estructuras defensivas" src="buildings.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="estructuras defensivas" src="buildings.jpg">
     <p>La **Jaula del Forzudo** es excelente porque al romperse, el Forzudo contraataca. La **Lápida** es el mejor counter para P.E.K.K.A y Príncipe por la generación de esqueletos.</p>
 </section>
 
 <section id="carril-opuesto">
     <h2>↔️ Intercambio de Carriles</h2>
-    <amp-img class="article-img" alt="lane switching strategy" src="lane_switch.jpg" width="600" height="350" layout="responsive"></amp-img>
+    <img class="article-img" alt="lane switching strategy" src="lane_switch.jpg">
     <p>Si el rival gasta 8 de elixir en un Golem atrás, tienes vía libre para atacar con todo por el otro carril y tomar la torre antes de que su Golem llegue al puente.</p>
 </section>
 
 <section id="meta">
   <h2>Meta Actual 2025</h2>
-  <amp-img class="article-img" alt="meta cartas 2025" src="meta_stats.jpg" width="600" height="350" layout="responsive"></amp-img>
+  <img class="article-img" alt="meta cartas 2025" src="meta_stats.jpg">
   <p>Las cartas más usadas por profesionales en este momento son: Fénix, Tornado, Minero y Caballero Dorado.</p>
 </section>
 
@@ -392,78 +404,49 @@
   </div>
 </section>
 
-<section id="terminos">
-    <h1>Términos y Condiciones</h1>
-    <p>Bienvenido a RoyaleLeaks. Al acceder a este sitio web, aceptas cumplir con estos términos de servicio, todas las leyes y regulaciones aplicables, y aceptas que eres responsable del cumplimiento de las leyes locales aplicables.</p>
+<section id="legal">
+  <h2>⚖️ Política de Privacidad y Aviso Legal</h2>
+   
+  <div style="font-size: 0.9em; color: #555; text-align: left;">
     
-    <h2>1. Política de Contenido de Fans (Supercell)</h2>
-    <p>Este contenido no está afiliado, respaldado, patrocinado ni aprobado específicamente por Supercell y Supercell no es responsable del mismo. Para obtener más información, consulte la Política de contenidos de fans de Supercell: <a href="https://supercell.com/en/fan-content-policy/" target="_blank" rel="nofollow">www.supercell.com/fan-content-policy</a>.</p>
-    <p>RoyaleLeaks es una guía educativa y de estrategia creada por fans para la comunidad.</p>
-
-    <h2>2. Propiedad Intelectual</h2>
-    <p>Las marcas comerciales, logotipos y activos del juego Clash Royale pertenecen a Supercell. El resto del contenido original (redacción de guías, análisis) es propiedad de RoyaleLeaks.</p>
-
-    <h2>3. Uso del Sitio</h2>
-    <p>Está prohibido usar este sitio para:</p>
+    <h3>1. Política de Privacidad y Cookies</h3>
+    <p>En <strong>RoyaleLeaks</strong>, la privacidad de nuestros visitantes es de extrema importancia. Este documento de política de privacidad describe los tipos de información personal que recibe y recopila RoyaleLeaks y cómo se utiliza.</p>
+    
+    <p><strong>Archivos de registro:</strong> Al igual que muchos otros sitios web, RoyaleLeaks hace uso de archivos de registro. La información dentro de los archivos de registro incluye direcciones de protocolo de internet (IP), tipo de navegador, proveedor de servicios de internet (ISP), fecha y hora, páginas de referencia/salida y número de clics para analizar tendencias, administrar el sitio y recopilar información demográfica. Las direcciones IP y otra información similar no están vinculadas a ninguna información que sea personalmente identificable.</p>
+    
+    <p><strong>Cookies y Web Beacons:</strong> RoyaleLeaks utiliza cookies para almacenar información sobre las preferencias de los visitantes y registrar información específica del usuario sobre las páginas a las que el usuario accede o visita.</p>
+    
+    <p><strong>Cookie de Google DoubleClick DART:</strong></p>
     <ul>
-        <li>Realizar actividades ilegales o fraudulentas.</li>
-        <li>Introducir virus o código malicioso.</li>
-        <li>Intentar manipular los anuncios mostrados (clics inválidos).</li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <section id="privacidad">
-    <h1>Política de Privacidad</h1>
-    <p>En RoyaleLeaks, accesible desde royaleleaks.com, una de nuestras principales prioridades es la privacidad de nuestros visitantes.</p>
-
-    <h2>Archivos de Registro (Log Files)</h2>
-    <p>RoyaleLeaks sigue un procedimiento estándar de uso de archivos de registro. Estos archivos registran a los visitantes cuando visitan sitios web. La información recopilada incluye direcciones IP, tipo de navegador, proveedor de servicios de Internet (ISP), fecha y hora, y páginas de referencia.</p>
-
-    <h2>Socios Publicitarios (Google AdSense)</h2>
-    <p>Google es un proveedor externo en nuestro sitio. Utiliza cookies, conocidas como cookies DART, para publicar anuncios a los visitantes de nuestro sitio en función de su visita a royaleleaks.com y otros sitios en Internet.</p>
-    <p>Los usuarios pueden optar por rechazar el uso de cookies DART visitando la Política de privacidad de la red de contenido y anuncios de Google en la siguiente URL: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="nofollow">https://policies.google.com/technologies/ads</a></p>
-
-    <h2>Derechos de Protección de Datos (GDPR/CCPA)</h2>
-    <p>Nos aseguramos de que conozca todos sus derechos de protección de datos. Todo usuario tiene derecho a solicitar acceso, rectificación o eliminación de sus datos personales contactando con nosotros.</p>
-  </section>
-
-  <hr>
-
-  <section id="cookies">
-    <h1>Política de Cookies</h1>
-    <p>Una cookie es un pequeño archivo de texto que un sitio web guarda en su ordenador o dispositivo móvil cuando visita el sitio.</p>
-
-    <h2>¿Cómo utilizamos las cookies?</h2>
-    <ul>
-        <li><strong>Cookies Esenciales:</strong> Necesarias para el funcionamiento técnico de la web.</li>
-        <li><strong>Cookies de Análisis:</strong> Nos ayudan a entender cuántos visitantes tenemos (ej. Google Analytics).</li>
-        <li><strong>Cookies de Publicidad:</strong> Utilizadas por Google AdSense para mostrar anuncios relevantes según sus intereses.</li>
+        <li>Google, como proveedor externo, utiliza cookies para publicar anuncios en RoyaleLeaks.</li>
+        <li>El uso de la cookie DART por parte de Google le permite servir anuncios a los usuarios basados en su visita a RoyaleLeaks y otros sitios en Internet.</li>
+        <li>Los usuarios pueden optar por no usar la cookie de DART visitando la política de privacidad de la red de contenido y anuncios de Google en la siguiente URL: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="nofollow">https://policies.google.com/technologies/ads</a></li>
     </ul>
 
-    <h2>Gestión de Cookies</h2>
-    <p>Puede desactivar las cookies a través de las opciones de su navegador individual. Para conocer información más detallada sobre la gestión de cookies con navegadores web específicos, se puede encontrar en los sitios web respectivos de los navegadores.</p>
-  </section>
+    <h3>2. Aviso Legal (Fan Content Policy)</h3>
+    <p>Este contenido no está afiliado, respaldado, patrocinado ni aprobado específicamente por Supercell y Supercell no es responsable del mismo. Para obtener más información, consulte la Política de contenidos de fans de Supercell: <a href="https://supercell.com/en/fan-content-policy/" target="_blank" rel="nofollow">https://supercell.com/en/fan-content-policy/</a>.</p>
+    <p>Todas las imágenes de cartas, personajes y logotipos de Clash Royale son propiedad intelectual de Supercell. Este sitio web es una guía educativa y de estrategia creada por fans para fans.</p>
 
-  <hr>
-
-  <section id="contacto">
-    <h1>Contacto</h1>
-    <p>Si tiene alguna pregunta sobre estos Términos, la Política de Privacidad, o desea ejercer sus derechos, por favor contáctenos.</p>
-    
-    <div class="contact-email">
-        📧 Email: soporte@royaleleaks.com
-    </div>
-    
-    <h3>Dirección Postal</h3>
-    <p>RoyaleLeaks Web Operations<br>
-    [Tu Ciudad], [Tu País]<br>
-    (Opcional si trabajas desde casa, el email suele ser suficiente para webs pequeñas)</p>
-  </section>
+    <h3>3. Contacto</h3>
+    <p>Si necesita más información o tiene alguna pregunta sobre nuestra política de privacidad, no dude en contactarnos por correo electrónico a: <strong>soporte@royaleleaks.com</strong></p>
+  </div>
+</section>
 <footer>
   <p>© 2025 RoyaleLeaks - Todos los derechos reservados | <a href="#legal">Aviso Legal y Privacidad</a></p>
 </footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const cookieBanner = document.getElementById("cookie-notification");
+        const acceptBtn = document.getElementById("accept-cookies-btn");
+
+        // Al hacer clic en aceptar, ocultamos el banner
+        acceptBtn.addEventListener("click", function() {
+            cookieBanner.style.display = "none";
+            // Opcional: Aquí podrías guardar una cookie real o LocalStorage para recordar la elección
+        });
+    });
+</script>
 
 </body>
 </html>
