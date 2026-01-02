@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📌 Geometría Sagrada: Guía de Posicionamiento - RoyaleLeaks</title>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #1e293b;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    h1, h2, h3 {
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      animation: colorChange 5s infinite alternate;
+    }
+    @keyframes colorChange {
+      0% { color: #f59e0b; }
+      50% { color: #000000; }
+      100% { color: #dc2626; }
+    }
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 1rem;
+      flex: 1;
+      gap: 2rem;
+    }
+    main {
+      flex: 3;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    aside {
+      flex: 1;
+      background: #f1f5f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      height: fit-content;
+    }
+    .blog-image {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .blog-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .card-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+      font-size: 0.95em;
+    }
+    .card-table th, .card-table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    .card-table th {
+      background-color: #fef3c7;
+      color: #92400e;
+    }
+    .pro-tip {
+      background: #fff7ed;
+      padding: 15px;
+      border-left: 5px solid #f59e0b;
+      margin-top: 15px;
+      border-radius: 4px;
+      color: #92400e;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0f172a;
+      color: #cbd5e1;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header style="background:#000;text-align:center;padding:20px 0;">
+  <a href="index.html">
+    <img src="ChatGPT Image 7 sept 2025, 10_18_24 a.m..png" alt="RoyaleLeaks Logo" style="max-width:100%;height:auto;">
+  </a>
+</header>
+
+<div class="container">
+
+<main>
+<h1>📌 Geometría Sagrada: Guía de Posicionamiento</h1>
+<p>Aprende a colocar tus cartas con <strong>precisión milimétrica</strong> para defender mejor, gastar menos elixir y ganar partidas sin tocar la torre.</p>
+
+<div class="blog-image">
+  <img src="posicionamiento-clash-royale.png" alt="Guía de posicionamiento Clash Royale">
+</div>
+
+<p>En Clash Royale, <strong>un solo cuadro de diferencia</strong> puede cambiar toda una partida. Esta guía te enseña los patrones de posicionamiento que usan los jugadores de alto nivel.</p>
+
+<h2>📐 ¿Qué es la Geometría Sagrada?</h2>
+<p>Es el uso consciente del <strong>espacio del mapa</strong> para manipular rutas, objetivos y tiempos de ataque de las tropas enemigas.</p>
+
+<table class="card-table">
+<tr>
+  <th>Concepto</th>
+  <th>Ventaja</th>
+</tr>
+<tr>
+  <td>Kiteo</td>
+  <td>Desviar tropas al centro y ganar tiempo</td>
+</tr>
+<tr>
+  <td>Activación del Rey</td>
+  <td>Defensa permanente con 0 elixir</td>
+</tr>
+<tr>
+  <td>Separación</td>
+  <td>Evitar daño en área</td>
+</tr>
+<tr>
+  <td>Alineación</td>
+  <td>Forzar hechizos ineficientes</td>
+</tr>
+</table>
+
+<h2>🎯 Posiciones Clave que Debes Dominar</h2>
+<ul>
+  <li><strong>4-3 Central:</strong> Atrae tanques y win conditions.</li>
+  <li><strong>Anti-hechizo:</strong> Tropas separadas contra Bola de Fuego.</li>
+  <li><strong>Anti-edificio:</strong> Colocaciones para Montapuercos y Ariete.</li>
+  <li><strong>Anti-splash:</strong> Evita que Mago o Valquiria limpien todo.</li>
+</ul>
+
+<h2>🛡 Defensa Inteligente</h2>
+<ol>
+  <li>Primero posiciona, luego defiende.</li>
+  <li>Gana tiempo antes que daño.</li>
+  <li>Usa el centro siempre que puedas.</li>
+  <li>Convierte defensa en contraataque.</li>
+</ol>
+
+<h2>⚠ Errores de Posicionamiento</h2>
+<ul>
+  <li>Jugar encima de la torre.</li>
+  <li>Regalar activaciones al rival.</li>
+  <li>Agrupar tropas sin pensar.</li>
+</ul>
+
+<div class="pro-tip">
+<strong>💡 Regla Pro:</strong><br>
+Si dudas entre dos posiciones, elige la que atraiga al centro. El centro gana partidas.
+</div>
+
+</main>
+
+<aside>
+<h3>📰 Guías Relacionadas</h3>
+<ul>
+  <li><a href="mazo-ballesta.html">Ballesta 3.0</a></li>
+  <li><a href="cycle-decks.html">Ciclos Rápidos</a></li>
+  <li><a href="mazo-logbait.html">Log Bait</a></li>
+  <li><a href="mazo-control.html">Control Avanzado</a></li>
+</ul>
+
+<h3>📂 Escuela Royale</h3>
+<ul>
+  <li><a href="index.html#guias">Guías Técnicas</a></li>
+  <li><a href="index.html#tips">Consejos Pro</a></li>
+  <li><a href="index.html#mazos">Mazos Meta</a></li>
+</ul>
+</aside>
+
+</div>
+
+<footer>
+<p>© 2025 RoyaleLeaks — El Arte del Posicionamiento</p>
+</footer>
+
+</body>
+</html>
