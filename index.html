@@ -1,469 +1,202 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta charset="UTF-8">
 
-  <meta charset="utf-8">
-  <title>RoyaleLeaks - Mazos Clash Royale 2025, Guías y Estrategias</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="RoyaleLeaks: mazos top 2025, estrategias, guía para subir a ligas, counters y meta actualizado de Clash Royale.">
-  <meta name="keywords" content="mazos clash royale 2025, royale leaks, mazos meta, clash royale mejores mazos, guías clash royale">
+  <title>GINICATRUXC | Guías FC Mobile 2025 y Noticias de Fútbol</title>
+
+  <meta name="description" content="Guías completas de FC Mobile 2025, estrategias oficiales, eventos, OVR y noticias del fútbol mundial. Contenido informativo y actualizado.">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="canonical" href="https://truxc.site/">
+
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="GINICATRUXC">
 
   <style>
-    /* ======= GENERAL ======= */
-    html {
-      scroll-behavior: smooth; /* Desplazamiento suave al navegar */
+    body{
+      font-family:Segoe UI, Tahoma, sans-serif;
+      margin:0;
+      background:#f4f4f4;
+      color:#333;
+      line-height:1.7;
     }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-      margin: 0;
-      background: #e6e9f5;
-      color: #1d1d1d;
-      padding-bottom: 50px;
+    header{
+      background:#21d4f3;
+      color:#fff;
+      padding:30px 20px;
+      text-align:center;
     }
-
-    /* ======= HEADER ESTILO CLASH ROYALE ======= */
-    header {
-      /* Corregí los espacios en la URL de la imagen */
-      background: url("babbe.avif") center/cover no-repeat,
-                  linear-gradient(90deg, #1a3ca6, #0f2b7a);
-      padding: 40px 20px;
-      color: #ffd700;
-      text-align: center;
-      text-shadow: 0 2px 4px rgba(0,0,0,.4);
+    nav{
+      background:#222;
+      padding:12px;
+      text-align:center;
     }
-
-    .logo {
-      width: 120px;
-      height: auto;
-      margin: auto;
-      display: block;
+    nav a{
+      color:#fff;
+      margin:0 12px;
+      text-decoration:none;
+      font-weight:bold;
     }
-
-    /* ======= MENÚ ======= */
-    nav {
-      background: #0d1f63;
-      padding: 12px;
-      text-align: center;
-      box-shadow: 0 3px 6px rgba(0,0,0,.3);
-      position: sticky;
-      top: 0;
-      z-index: 100;
+    nav a:hover{
+      color:#21d4f3;
     }
-
-    nav a {
-      display: inline-block;
-      padding: 10px 16px;
-      background: #1a3ca6;
-      color: #ffd700;
-      border-radius: 10px;
-      margin: 4px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: .2s;
-      font-size: 0.9em;
+    section{
+      padding:30px;
+      max-width:1000px;
+      margin:30px auto;
+      background:#fff;
+      border-radius:8px;
+      box-shadow:0 2px 6px rgba(0,0,0,.1);
     }
-
-    nav a:hover {
-      background: #ffd700;
-      color: #0f2b7a;
-      transform: scale(1.05);
+    h2{
+      color:#21d4f3;
+      border-bottom:2px solid #21d4f3;
+      padding-bottom:6px;
     }
-
-    /* ======= SECCIONES ======= */
-    section {
-      padding: 20px;
-      max-width: 1000px;
-      margin: 20px auto;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 5px rgba(0,0,0,.1);
-      overflow: hidden;
+    article{
+      margin-bottom:40px;
     }
-
-    h2 {
-      color: #0f2b7a;
-      border-bottom: 2px solid #ffd700;
-      padding-bottom: 5px;
-      margin-top: 0;
+    img{
+      max-width:100%;
+      height:auto;
+      border-radius:6px;
+      margin:15px 0;
     }
-    
-    h3 {
-        color: #1a3ca6;
+    footer{
+      background:#222;
+      color:#fff;
+      text-align:center;
+      padding:20px;
     }
-
-    .post {
-      border-bottom: 1px solid #ddd;
-      padding: 20px 0;
-    }
-
-    .post:last-child {
-      border-bottom: none;
-    }
-    
-    /* ESTILOS DE IMÁGENES DENTRO DE POSTS */
-    /* Esto reemplaza el layout="responsive" de AMP */
-    .article-img {
-        border-radius: 8px;
-        margin-bottom: 15px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        width: 100%;       /* Ocupa el ancho del contenedor */
-        height: auto;      /* Mantiene la proporción */
-        max-width: 600px;  /* Límite máximo opcional */
-        display: block;    /* Evita espacios extra debajo */
-    }
-    
-    /* ESTILO DE CONTACTO */
-    .contact-box {
-        border: 1px solid #ddd;
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-        margin-top: 15px;
-        background: #f9f9f9;
-    }
-    .contact-box a {
-        color: #1a3ca6; 
-        font-weight: bold; 
-        font-size: 1.2em; 
-        text-decoration: none;
-    }
-    
-    /* ESTILO PARA TABLAS DE CARTAS */
-    .card-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 15px 0;
-    }
-    .card-table th, .card-table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-    }
-    .card-table th {
-        background-color: #f2f2f2;
-        color: #0f2b7a;
-        font-weight: bold;
-    }
-
-    /* ======= AVISO DE COOKIES (ESTÁNDAR) ======= */
-    #cookie-notification {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 15px;
-        background: #1d1d1d;
-        color: #fff;
-        display: flex; /* Se usa flexbox para centrar */
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
-        z-index: 9999;
-    }
-    
-    .cookie-content {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 1000px;
-        width: 100%;
-        margin: auto;
-    }
-    .cookie-content p {
-        margin: 0 10px 10px 0;
-        font-size: 0.9em;
-        flex: 1;
-    }
-    .cookie-btn {
-        background: #ffd700;
-        color: #0d1f63;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-weight: bold;
-        cursor: pointer;
-        text-transform: uppercase;
-    }
-
-    /* ======= FOOTER ======= */
-    footer {
-      background: #0d1f63;
-      color: #ffd700;
-      text-align: center;
-      padding: 25px;
-      margin-top: 20px;
-    }
-    footer a {
-        color: #ffd700;
-        text-decoration: underline;
-    }
-
   </style>
 </head>
+
 <body>
 
-<div id="cookie-notification">
-  <div class="cookie-content">
-    <p>Utilizamos cookies propias y de terceros para mejorar tu experiencia de navegación y ofrecerte contenido personalizado. Al continuar navegando, aceptas nuestra <a href="#legal" style="color:#ffd700;">Política de Cookies</a>.</p>
-    <button id="accept-cookies-btn" class="cookie-btn">Aceptar y Cerrar</button>
-  </div>
-</div>
-
 <header>
-  <img class="logo" src="ChatGPT Image 2 ene 2026, 01_26_38 a.m..png" alt="Logo RoyaleLeaks">
-  <h1>RoyaleLeaks</h1>
-  <p>Mazos, guías y novedades de Clash Royale</p>
+  <h1>GINICATRUXC</h1>
+  <p>Guías de FC Mobile 2025 y noticias del fútbol mundial</p>
 </header>
 
 <nav>
-  <a href="#mazos">Mazos Top</a>
-  <a href="#guías">Guías</a>
-  <a href="#posicionamiento">Estrategias</a>
-  <a href="#tanques">Anti-Meta</a>
+  <a href="#inicio">Inicio</a>
+  <a href="#guias">Guías FC Mobile</a>
+  <a href="#eventos">Eventos</a>
+  <a href="#noticias">Noticias</a>
   <a href="#contacto">Contacto</a>
+  <a href="#privacidad">Privacidad</a>
 </nav>
 
 <section id="inicio">
-  <h2>Bienvenido a RoyaleLeaks</h2>
-  <p><strong>RoyaleLeaks</strong> es tu portal con los mejores mazos del meta, estrategias para subir copas y novedades oficiales de <strong>Clash Royale 2025</strong>.</p>
-  <p>Analizamos mazos de top global, jugadores profesionales, torneos y estadísticas oficiales para traerte la información más precisa.</p>
+  <h2>Sobre GINICATRUXC</h2>
+  <p>
+    <strong>GINICATRUXC</strong> es un sitio web informativo dedicado a <strong>FC Mobile 2025</strong>
+    y al fútbol internacional. Aquí encontrarás guías completas, análisis detallados
+    y estrategias basadas exclusivamente en mecánicas oficiales del juego.
+  </p>
+  <p>
+    Nuestro objetivo es ayudar a los jugadores a progresar de forma constante,
+    comprender mejor los eventos y mantenerse informados sin recurrir a métodos
+    externos, hacks o prácticas engañosas.
+  </p>
 </section>
 
-<section id="mazos">
-  <h2>Mazos top Clash Royale 2025</h2>
+<section id="guias">
+  <h2>Guías FC Mobile 2025</h2>
 
- 
+  <article>
+    <h3>Cómo conseguir gemas en FC Mobile 2025 de forma legal</h3>
+    <img src="gemasfifa.jpg" alt="Cómo conseguir gemas en FC Mobile 2025">
+    <p>
+      Las gemas son uno de los recursos más importantes en FC Mobile 2025. Se utilizan
+      para acceder a eventos especiales, sobres y opciones de progreso dentro del juego.
+    </p>
+    <p>
+      La única forma segura de obtener gemas es a través de métodos oficiales como
+      misiones diarias, eventos temporales, logros y recompensas por subir de nivel.
+      EA Sports controla estrictamente su distribución para mantener el equilibrio
+      competitivo.
+    </p>
+    <p>
+      Completar misiones de forma constante y participar en eventos de temporada es
+      la estrategia más efectiva para acumular gemas a largo plazo sin poner en riesgo
+      tu cuenta.
+    </p>
+  </article>
 
-<section id="gigante-electrico">
-  <h2>⚔ Análisis Profundo: Gigante Eléctrico + Fénix</h2>
- <img class="article-img" alt="clash royale guia estrategia" src="Gemini_Generated_Image_sgc9ixsgc9ixsgc9.png">
-  
-  <p>Este mazo domina el meta de 2025 por su capacidad de castigar errores. El Gigante Eléctrico actúa como una condición de victoria que se defiende sola contra enjambres (ejército de esqueletos, esbirros), mientras el Fénix proporciona una segunda vida y control aéreo.</p>
-   
-  <h3>Cartas y Rol Principal</h3>
-  <table class="card-table">
-    <tr>
-      <th>Categoría</th>
-      <th>Cartas del Mazo</th>
-      <th>Función Clave</th>
-    </tr>
-    <tr><td>Win Condition</td><td>*Gigante Eléctrico*</td><td>Tanque que refleja daño.</td></tr>
-    <tr><td>Soporte Aéreo</td><td>*Fénix*</td><td>Renace y limpia tropas pesadas.</td></tr>
-    <tr><td>Sinergia</td><td>*Tornado*</td><td>Junta tropas hacia el Gigante.</td></tr>
-    <tr><td>Hechizo Pesado</td><td>*Rayo*</td><td>Resetea Torres Infernales.</td></tr>
-  </table>
-
-  <h3>🧠 Plan de Juego Detallado</h3>
-  <ul>
-      <li><strong>x1 de Elixir (0:00 - 2:00):</strong> Juega pasivo. Tu objetivo es activar tu Torre del Rey usando el Tornado contra Montapuercos o tropas rivales. No saques el Gigante Eléctrico a menos que tengas una ventaja de elixir clara (+3).</li>
-      <li><strong>x2 de Elixir (2:00 - Fin):</strong> Inicia el ataque desde atrás. Cuando el Gigante cruce el puente, ten listo el <strong>Rayo</strong>. Si el rival defiende con tropas de rango (Mosquetera/Mago), usa el <strong>Tornado</strong> para atraerlas hacia el Gigante Eléctrico; el aura eléctrica las eliminará instantáneamente.</li>
-  </ul>
-
-  <div style="background: #eef2ff; padding: 15px; border-left: 5px solid #1a3ca6; margin-top: 15px;">
-      <p><strong>💡 Pro Tip:</strong> Nunca uses el Rayo solo en la torre. Espera a que el rival coloque una estructura o una tropa de coste 4+ cerca de la torre para obtener "valor" de elixir.</p>
-  </div>
-</section>
-  
-<section id="montapuercos">
-  <h2>🚀 Mazo Técnico: Montapuercos 2.6 Ciclo</h2>
- <img class="article-img" alt="clash royale guia visual" src="Gemini_Generated_Image_buo1tbbuo1tbbuo1.png">
-  <p>El ciclo rápido por excelencia. La filosofía de este mazo no es hacer ataques fuertes, sino <strong>atacar muchas veces</strong> (Out-cycle). Debes jugar el Montapuercos más rápido de lo que el rival puede recuperar su estructura defensiva.</p>
-   
-  <table class="card-table">
-    <tr><th>Carta</th><th>Función</th></tr>
-    <tr><td>*Montapuercos*</td><td>Daño constante a Torre.</td></tr>
-    <tr><td>*Mosquetera*</td><td>Tu única defensa de alto daño (DPS). ¡Protégela!</td></tr>
-    <tr><td>*Golem de Hielo*</td><td>Tanque barato para distraer (Kiting).</td></tr>
-    <tr><td>*Cañón*</td><td>Defensa de tanques terrestres.</td></tr>
-  </table>
-
-  <h3>🛡 Defensa Avanzada (La clave del éxito)</h3>
-  <p>Ganar con 2.6 depende de tu defensa, no de tu ataque. Aquí las técnicas vitales:</p>
-  <ul>
-      <li><strong>El Kiting con Golem de Hielo:</strong> Si viene un P.E.K.K.A o un Príncipe, coloca el Golem de Hielo en el carril contrario, justo en el centro. La tropa enemiga cruzará todo el mapa persiguiéndolo mientras tus torres le disparan.</li>
-      <li><strong>Posición 4-3 del Cañón:</strong> Coloca el cañón 4 cuadros alejado del río y 3 cuadros hacia el centro para atraer Montapuercos y Gigantes, permitiendo que ambas torres disparen.</li>
-      <li><strong>Activación de Rey:</strong> Aprende a activar tu torre central usando solo esqueletos y espíritu de hielo contra un Megacaballero.</li>
-  </ul>
-</section>
-  
-  <section id="pekka">
-  <h2>💥 Meta-Counter: P.E.K.K.A Bridge Spam</h2>
- <img class="article-img" alt="clash royale guia estrategia" src="Gemini_Generated_Image_hhxv62hhxv62hhxv.png">
-  <p>El arquetipo de "Bridge Spam" se basa en castigar al rival cuando tiene poco elixir. Si el oponente gasta mucho en un Golem al fondo, tú atacas rápido en el puente con Bandida o Fantasma Real.</p>
-  
-  <h3>Cómo usar al P.E.K.K.A correctamente</h3>
-  <p>Un error de novatos es usar al P.E.K.K.A para atacar. <strong>¡No lo hagas!</strong><a href="pekka.html"> <h3>LEER MASS...</h3>
-</a></p>
- 
+  <article>
+    <h3>Cómo mejorar el OVR en FC Mobile 2025 paso a paso</h3>
+    <img src="OVR.jpg" alt="Cómo mejorar el OVR en FC Mobile 2025">
+    <p>
+      El OVR (Overall Rating) representa la calidad total de tu equipo. Mejorarlo es
+      clave para competir en eventos y ligas avanzadas dentro de FC Mobile 2025.
+    </p>
+    <p>
+      Para aumentar el OVR de forma eficiente, es importante optimizar los jugadores
+      titulares, mejorar la química del equipo y participar activamente en eventos
+      competitivos que ofrecen cartas especiales.
+    </p>
+    <p>
+      También es recomendable equilibrar la plantilla completa, incluyendo suplentes,
+      ya que el promedio general influye en el rendimiento global del equipo.
+    </p>
+  </article>
 </section>
 
-<section id="minero-bait">
-    <h2>🃏 Guía Maestra: Log Bait Clásico</h2>
-   <img class="article-img" alt="clash royale guia" src="Gemini_Generated_Image_p2tt6hp2tt6hp2tt.png">
-    <p>El "Log Bait" no es solo un mazo, es un estilo de vida en Clash Royale. Su filosofía es el <strong>desgaste psicológico</strong>: obligas al rival a usar su único hechizo ligero (El Tronco/Flechas) en tu Princesa o Pandilla, dejándolo indefenso ante tu Barril de Duendes.<a href="logbait.html"> <h3>LEER MASS...</h3>
-</a></p>
+<section id="eventos">
+  <h2>Eventos de FC Mobile 2025</h2>
 
-   
+  <article>
+    <h3>Cómo aprovechar los eventos y sus recompensas</h3>
+    <img src="eventossemanales.jpg" alt="Eventos FC Mobile 2025">
+    <p>
+      Los eventos son el principal motor de progreso en FC Mobile 2025. A través de
+      ellos, los jugadores pueden obtener monedas, gemas, jugadores especiales y
+      mejoras importantes.
+    </p>
+    <p>
+      Existen eventos semanales, de temporada y eventos especiales que aparecen en
+      fechas clave. Planificar tu tiempo y priorizar recompensas útiles marca la
+      diferencia entre un progreso lento y uno eficiente.
+    </p>
+    <p>
+      Leer las reglas de cada evento y administrar correctamente los recursos es
+      fundamental para maximizar las recompensas obtenidas.
+    </p>
+  </article>
 </section>
 
-<section id="rg-walls">
-    <h2>🔨 Maestría: Gigante Noble + Pescador</h2>
-   <img class="article-img" alt="clash royale guia imagen" src="Gemini_Generated_Image_o28hmoo28hmoo28h.png">
-    <p>Este mazo define el arquetipo de "Contragolpe Pesado". El Gigante Noble es una amenaza constante por su rango, pero la verdadera estrella es el <strong>Pescador</strong>, quien se encarga de quitar las defensas que el rival pone para matar a tu gigante.<a href="gigantenoble.html"> <h3>LEER MASS...</h3>
-</a></p>
-
+<section id="noticias">
+  <h2>Noticias del fútbol</h2>
+  <p>
+    En GINICATRUXC también compartimos noticias actualizadas del fútbol internacional,
+    incluyendo competiciones, fichajes, resultados destacados y novedades relevantes
+    para los aficionados.
+  </p>
 </section>
-  
-<section id="golem-noche">
-    <h2>🦍 Dominio Beatdown: Golem + Bruja Nocturna</h2>
-   <img class="article-img" alt="clash royale estrategia" src="Gemini_Generated_Image_h8qgzsh8qgzsh8qg.png">
-    <p>El arquetipo *Beatdown* por excelencia. Este mazo no busca ganar por "poquito", busca arrasar y conseguir las 3 coronas. La estrategia consiste en ignorar el daño leve en tus torres para acumular una ventaja de elixir masiva y crear un ataque imparable en el último minuto.<a href="golem.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-    
-</section>
-  
-<section id="sparky-def">
-    <h2>⚡ Alto Voltaje: Sparky + Montacarneros</h2>
-   <img class="article-img" alt="clash royale imagen" src="Gemini_Generated_Image_rvtlgsrvtlgsrvtl.png">
-    <p>Este mazo combina la destrucción masiva de *Sparky* con la versatilidad de la *Montacarneros*. Es un mazo de "doble amenaza": si el rival gasta todo su elixir parando a Sparky, la Montacarneros destruirá su torre, y viceversa.<a href="montacarneros.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-
-<section id="ballesta">
-    <h2>🏹 Maestría de Asedio: Ballesta 3.0 (X-Bow)</h2>
-   <img class="article-img" alt="clash royale imagen estrategia" src="Gemini_Generated_Image_omoaa1omoaa1omoa.png">
-    <p>El mazo de *Ballesta* es el rey del arquetipo de "Asedio". A diferencia de otros mazos, tú no cruzas el puente; obligas al rival a pelear en tu terreno. Es un mazo de paciencia extrema, cálculo de elixir y defensa perfecta.<a href="ballesta.html"> <h3>LEER MASS...</h3>
-                                                                                                                                                                                                                        
-</a></p>
-
-   
-
-<section id="guías">
-  <h2>Guías esenciales</h2>
-
- <div class="post" id="ciclo-rapido">
-    <h3>🎓 Masterclass: Dominando los Ciclos Rápidos (Cycle Decks)</h3>
-  <img class="article-img" alt="clash royale deck imagen" src="Gemini_Generated_Image_1wduo51wduo51wdu.png">
-    <p>Los mazos de ciclo rápido (promedio de elixir 2.6 - 3.0) no ganan por fuerza bruta, ganan por *velocidad y matemáticas*. Tu objetivo es aprovechar los momentos en los que el rival no tiene en mano su carta defensiva clave (Counter).<a href="ciclo.html"> <h3>LEER MASS...</h3>
-</a></p>
-                                                                                                                                                                                                                                              
-
-   
-
-<section id="posicionamiento">
-    <h2>📌 Geometría Sagrada: Guía de Posicionamiento</h2>
-   <img class="article-img" alt="clash royale imagen carta" src="Gemini_Generated_Image_a8hl3ja8hl3ja8hl.png">
-    <p>En Clash Royale, el tablero es una cuadrícula matemática. Colocar una estructura una casilla (tile) más a la derecha o a la izquierda puede significar la diferencia entre defender un Golem perfecto o perder la torre. Aquí aprenderás a dominar el espacio.<a href="Posicionamiento.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-   
-
-<section id="tanques">
-    <h2>🛡 Manual Anti-Tanques: Deteniendo el "Push" Imparable</h2>
-   <img class="article-img" alt="clash royale imagen generada" src="Gemini_Generated_Image_mgfma8mgfma8mgfm.png">
-    <p>Enfrentarse a un Golem, P.E.K.K.A o Megacaballero puede dar miedo, pero recuerda: *El tanque no es lo que te mata, lo que te mata es lo que viene detrás.* Aquí aprenderás a desmantelar ataques pesados pieza por pieza.<a href="tanque.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-   
-  
-
-<section id="hechizos">
-    <h2>✨ Maestría Arcana: El Arte de los Hechizos</h2>
-    <img class="article-img" alt="clash royale imagen generada" src="Gemini_Generated_Image_o1m6ano1m6ano1m6.png">
-    <p>Los hechizos no son solo apoyo; a menudo son tu condición de victoria. Un buen jugador usa tropas para defender y hechizos para atacar, pero un <strong>jugador experto</strong> gana la partida solo calculando el daño de sus hechizos. Aquí aprenderás a no desperdiciar ni una gota de elixir.<a href="hechizo.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-
-    
-
-<section id="matchups">
-    <h2>🧠 La Biblia de los Matchups: Guía de Enfrentamientos</h2>
-   <img class="article-img" alt="clash royale imagen generada" src="Gemini_Generated_Image_71o6uw71o6uw71o6.png">
-    <p>En Clash Royale, no todas las partidas son justas. A veces tendrás ventaja (80-20) y a veces tendrás un "Hard Counter" en contra. Ganar depende de identificar qué tipo de mazo tiene el rival en los primeros 30 segundos y adaptar tu plan de juego.<a href="enfrentamientos.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-  
-  
-
-<section id="defensas-baratas">
-    <h2>🧱 Arquitectura Defensiva: Guía de Estructuras</h2>
-  <img class="article-img" alt="clash royale imagen generada" src="Gemini_Generated_Image_i9yxa3i9yxa3i9yx.png">
-    <p>Las estructuras son el freno de mano del juego. Su función principal no es solo hacer daño, sino *comprar tiempo* y desviar a los tanques enemigos (Hog Riders, Golems, Gigantes) hacia el centro de la arena para que reciban fuego cruzado.<a href="estructuras.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-   
-
-<section id="carril-opuesto">
-    <h2>↔ Dominio del Mapa: El Arte del Carril Opuesto</h2>
-  <img class="article-img" alt="clash royale imagen generada" src="Gemini_Generated_Image_h64xwoh64xwoh64x.png">
-    <p>Muchos jugadores pierden porque se obsesionan con un solo carril. Clash Royale es un juego de dos torres. Saber cuándo presionar el lado contrario (Cross-map pressure) es la clave para desestabilizar a mazos pesados y romper defensas sólidas.<a href="opuesto.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-    
-  
-
-<section id="meta">
-    <h2>📊 Estado del Meta: Temporada 2025</h2>
- <img class="article-img" alt="clash royale imagen generada" src="Gemini_Generated_Image_e2q6mie2q6mie2q6.png">
-    <p>El meta actual ya no se define solo por cartas, sino por *Evoluciones*. Con la habilitación del segundo slot de evolución (Nivel 15), los mazos que no aprovechan dos evoluciones están en desventaja matemática. El juego se ha vuelto más agresivo y rápido.<a href="meta.html"> <h3>LEER MASS...</h3>
-</a></p>
-
-   
 
 <section id="contacto">
-  <h2>✉️ Contacta con RoyaleLeaks</h2>
-  <div class="contact-box">
-    <p>¿Dudas o sugerencias?</p>
-    <a href="mailto:soporte@royaleleaks.com">soporte@royaleleaks.com</a>
-  </div>
+  <h2>Contacto</h2>
+  <p>
+    Para consultas o sugerencias puedes escribirnos al correo:
+    <a href="mailto:todosera047@gmail.com">todosera047@gmail.com</a>
+  </p>
 </section>
 
-<section id="legal">
- <a href="politicas.html"> <h3>⚖️ Política de Privacidad y Aviso Legal</h3></a>
-   
-  <div style="font-size: 0.9em; color: #555; text-align: left;">
-    
-    <h3>1. Política de Privacidad y Cookies</h3>
-    <p>En <strong>RoyaleLeaks</strong>, la privacidad de nuestros visitantes es de extrema importancia. Este documento de política de privacidad describe los tipos de información personal que recibe y recopila RoyaleLeaks y cómo se utiliza.</p>
-    
-    <p><strong>Archivos de registro:</strong> Al igual que muchos otros sitios web, RoyaleLeaks hace uso de archivos de registro. La información dentro de los archivos de registro incluye direcciones de protocolo de internet (IP), tipo de navegador, proveedor de servicios de internet (ISP), fecha y hora, páginas de referencia/salida y número de clics para analizar tendencias, administrar el sitio y recopilar información demográfica. Las direcciones IP y otra información similar no están vinculadas a ninguna información que sea personalmente identificable.</p>
-    
-    <p><strong>Cookies y Web Beacons:</strong> RoyaleLeaks utiliza cookies para almacenar información sobre las preferencias de los visitantes y registrar información específica del usuario sobre las páginas a las que el usuario accede o visita.</p>
-    
-    <p><strong>Cookie de Google DoubleClick DART:</strong></p>
-    <ul>
-        <li>Google, como proveedor externo, utiliza cookies para publicar anuncios en RoyaleLeaks.</li>
-        <li>El uso de la cookie DART por parte de Google le permite servir anuncios a los usuarios basados en su visita a RoyaleLeaks y otros sitios en Internet.</li>
-        <li>Los usuarios pueden optar por no usar la cookie de DART visitando la política de privacidad de la red de contenido y anuncios de Google en la siguiente URL: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="nofollow">https://policies.google.com/technologies/ads</a></li>
-    </ul>
-
-    <h3>2. Aviso Legal (Fan Content Policy)</h3>
-    <p>Este contenido no está afiliado, respaldado, patrocinado ni aprobado específicamente por Supercell y Supercell no es responsable del mismo. Para obtener más información, consulte la Política de contenidos de fans de Supercell: <a href="https://supercell.com/en/fan-content-policy/" target="_blank" rel="nofollow">https://supercell.com/en/fan-content-policy/</a>.</p>
-    <p>Todas las imágenes de cartas, personajes y logotipos de Clash Royale son propiedad intelectual de Supercell. Este sitio web es una guía educativa y de estrategia creada por fans para fans.</p>
-
-    <h3>3. Contacto</h3>
-    <p>Si necesita más información o tiene alguna pregunta sobre nuestra política de privacidad, no dude en contactarnos por correo electrónico a: <strong>soporte@royaleleaks.com</strong></p>
-  </div>
+<section id="privacidad">
+  <h2>Política de Privacidad</h2>
+  <p>
+    GINICATRUXC no recopila información personal sensible. El sitio cumple con las
+    normativas de privacidad y utiliza cookies únicamente para mejorar la experiencia
+    del usuario.
+  </p>
 </section>
+
 <footer>
-  <p>© 2025 RoyaleLeaks - Todos los derechos reservados | <a href="#legal">Aviso Legal y Privacidad</a></p>
+  <p>© 2025 GINICATRUXC - Contenido informativo y educativo</p>
 </footer>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const cookieBanner = document.getElementById("cookie-notification");
-        const acceptBtn = document.getElementById("accept-cookies-btn");
-
-        // Al hacer clic en aceptar, ocultamos el banner
-        acceptBtn.addEventListener("click", function() {
-            cookieBanner.style.display = "none";
-            // Opcional: Aquí podrías guardar una cookie real o LocalStorage para recordar la elección
-        });
-    });
-</script>
 
 </body>
 </html>
